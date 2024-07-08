@@ -1,3 +1,4 @@
+import Button from './UI/Button.jsx';
 import logoImg from '../assets/logo.jpg';
 
 export default function Header(){
@@ -7,9 +8,9 @@ export default function Header(){
             <h1>Eat-Mania</h1>
         </div>
         <nav>
-            <button>
+            <Button textOnly={true}>
                 Cart (0)
-            </button>
+            </Button>
         </nav>
     </header>
 }
